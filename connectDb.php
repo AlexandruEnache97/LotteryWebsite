@@ -1,7 +1,7 @@
 <?php
 	
 	DEFINE('DB_USER', 'raikam');
-	DEFINE('DB_PASSWORD', 'Balu.bili1');
+	DEFINE('DB_PASSWORD', '****');
 	DEFINE('DB_HOST', 'localhost');
 	DEFINE('DB_NAME', 'lotterydatabase');
 	
