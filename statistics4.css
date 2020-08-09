@@ -1,0 +1,173 @@
+body {
+  background-color: #343a40;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 410px;
+  max-width: 550px;
+  height: auto;
+}
+
+ul {
+  background-color: #5ca08e;
+  list-style-type: none;
+  display: block;
+  text-align: center;
+  padding-top:11px;
+  padding-bottom:10px;
+  min-width: 410px;
+  max-width: 550px;
+}
+
+li {
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top:10px;
+  padding-left: 15px;
+  padding-bottom:10px;
+  padding-right: 15px;
+  background-color: #2e856e;
+}
+
+a {
+  margin-left: 3px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: #006a4e;
+  padding-top:12px;
+  padding-left: 15px;
+  padding-bottom:12px;
+  padding-right: 15px;
+}
+
+.selected {
+  background-color: #006a4e;
+  padding-top:12px;
+  padding-left: 15px;
+  padding-bottom:12px;
+  padding-right: 15px;
+}
+
+.container {
+  min-width: 410px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.title {
+
+  text-align: center;
+  background-color: #5ca08e;
+  min-width: 410px;
+  max-width: 600px;
+}
+
+.menu {
+
+  min-width: 410px;
+  max-width: 600px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+  background-color: white;
+  margin: 0 auto;
+}
+
+th {
+  text-align: center;
+  background-color: #5ca08e;
+  padding: 10px;
+  font-size: 20px;
+}
+
+td {
+  text-align: center;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+.numberCircle {
+    border-radius: 6%;
+    width: 2px;
+    height: 2px;
+    padding: 1px;
+
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
+}
+
+input[type="radio"] {
+  margin-left: 10px;
+}
+
+form {
+  display: inline-flex;
+  padding-top:15px;
+}
+
+input[type=submit] {
+  margin-left: 20px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.selectNr {
+  display:inline-flex;
+  background-color: #006a4e;
+  padding-left:110px;
+  margin-left:10px;
+  color: white;
+
+  width: 470px;
+  min-width: 410px;
+  max-width: 580px;
+}
+
+.selectDate {
+  display:inline-flex;
+  background-color: #006a4e;
+  padding-left:30px;
+  padding-right:20px;
+  margin-left:10px;
+  color: white;
+
+  width: 530px;
+  min-width: 410px;
+  max-width: 580px;
+}
+
+input[type=date] {
+    margin-left: 20px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+.selectDate .text {
+
+      margin-left: 20px;
+      margin-top: 10px;
+}
